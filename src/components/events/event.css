@@ -1,0 +1,35 @@
+.event {
+    height: 100%;
+
+}
+
+.event__list {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid black;
+    border-radius: 30px;
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    li {
+        padding: 1em;
+        background-color: cadetblue;
+        display: flex;
+        border-radius: 15px;
+    }
+}
+
+.event__list_date {
+    font-weight: 600;
+}
+
+.event__list_img {
+    width: 100px;
+    aspect-ratio: 1;
+}
